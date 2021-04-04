@@ -1,0 +1,150 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  color: #f7fbe1;
+  font-size: 3.5rem;
+  /*line-height: 2; */
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 1rem;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Turret Road', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.developer {
+  color: #f7fbe1;
+  font-family: 'Satisfy', cursive;
+  font-weight: normal;
+  font-size: 2.5rem;
+  /** we use %, px, em for our font size but we face a problem becoz of static and dymanic type where as different value types gets added up  .
+  so to overcome this, as we are learning the latest version of CSS which is css3 we can avoid this conflict by using rem. **/
+  /**** 16px = 100%= 1em. if you want 900% then 900/16 = 56.25px ;; 40px = 40/16 = 2.5rem ****/
+}
+
+/***** display (comment line)*******/
+.top-container {
+  background-color: #93b5e1;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #11999E;
+  padding: 50px 0 20px;
+}
+
+.bottom {
+  color: #EAF6F6;
+}
+
+.mypic {
+  height: 200px;
+  width: 200px;
+}
+
+.myskill {
+  width: 25%;
+  float: left;
+  /*use float only when you want to wrap text around any element or images. donot use them in unneseccary places.*/
+  margin-right: 30px;
+}
+
+.creative {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+/*.myskill-description {
+  clear: left;      we are using clear to avoid text being wrapped around the images.
+}
+
+.creative-description {
+  clear: right;
+} */
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 230px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
